@@ -1,0 +1,259 @@
+/* 盈科拼团 */
+
+.assemble_consultation {
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(50deg, #00b372, #00e593);
+    display: flex;
+    justify-content: center;
+}
+
+.assemble_consultation>ul {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.assemble_consultation>ul>li {
+    width: 48%;
+    height: auto;
+    margin-top: 0.5rem;
+    /* border: 1px solid #ccc; */
+}
+
+.assemble_consultation>ul>li:nth-child(1) {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.assemble_consultation>ul>li:nth-child(2) {
+    font-size: 0.6rem;
+}
+
+.assemble_consultation>ul>li:nth-child(2)>p:nth-child(1) {
+    padding: 24px 0 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.assemble_consultation>ul>li:nth-child(2)>p:nth-child(2) {
+    font-size: 0.6rem;
+    color: white;
+}
+
+.assemble_consultation>ul>li>p>button {
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+    outline: none;
+    background-color: transparent;
+}
+
+
+/* 盈科拼团系统三大拼团新玩法 */
+
+.assemble_play {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.assemble_play>ul {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.assemble_play>ul>li {
+    width: 46%;
+    height: auto;
+    /* border: 1px solid #ccc; */
+    margin-bottom: 0.8rem;
+}
+
+.assemble_play>ul>li>p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.assemble_play>ul>li>p:nth-child(1) {
+    width: 100%;
+    height: 6rem;
+    padding: 1rem 0;
+}
+
+.assemble_play>ul>li>p:nth-child(2) {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.assemble_play>ul>li>p:nth-child(3) {
+    font-size: 0.6rem;
+    padding: 0 0.5rem 0.5rem;
+    color: #808080;
+}
+
+
+/* 盈科拼团系统的功能主要组成 */
+
+.assemble_main {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0.5rem;
+    background-color: #f6f9fb;
+}
+
+.assemble_main>ul {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.assemble_main>ul>li {
+    width: 46%;
+    height: auto;
+    margin-bottom: 0.8rem;
+    background-color: white;
+}
+
+.assemble_main>ul>li>p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.assemble_main>ul>li>p:nth-child(1) {
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    color: #0054ac;
+    font-size: 1rem;
+}
+
+.assemble_main>ul>li>p:nth-child(2) {
+    padding: 10px 0 0;
+    font-size: 0.8rem;
+}
+
+.assemble_main>ul>li>p:nth-child(3) {
+    font-size: 0.6rem;
+    padding: 0.5rem;
+    color: #808080;
+}
+
+
+/* 搭配盈科微商城与微分销 */
+
+.assemble_branch {
+    width: 100%;
+    height: auto;
+    background-color: #f6f9fb;
+    display: flex;
+    justify-content: center;
+}
+
+.assemble_branch>ul {
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.assemble_branch>ul>li {
+    width: 48%;
+    height: auto;
+}
+
+.assemble_branch>ul>li:nth-child(1) {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.assemble_branch>ul>li:nth-child(2) {
+    font-size: 0.6rem;
+}
+
+.assemble_branch>ul>li:nth-child(2)>p:nth-child(1) {
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.assemble_branch>ul>li:nth-child(2)>p:nth-child(2) {
+    padding-top: 0.5rem;
+    color: #808080;
+}
+
+.assemble_branch>ul>li:nth-child(2)>p:nth-child(3) {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.assemble_branch>ul>li:nth-child(2)>p:nth-child(4) {
+    padding-top: 0.5rem;
+}
+
+.assemble_branch>ul>li:nth-child(2)>p:nth-child(4)>button {
+    background: linear-gradient(50deg, #3684fa, #40a5fc);
+    padding: 0.3rem 0.8rem;
+    border: 0;
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+}
+
+
+/* 小程序 */
+
+.small_program {
+    width: 93%;
+    height: auto;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    /* background-color: darkcyan; */
+}
+
+.small_program>p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.small_program>p:nth-child(1) {
+    padding: 0.8rem 0;
+    font-size: 0.6rem;
+}
+
+.small_program>p:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.small_program>p:nth-child(2)>button {
+    padding: 0.3rem 0.8rem;
+    border: 0;
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.small_program>p:nth-child(2)>button:nth-child(1) {
+    background: linear-gradient(50deg, #f12929, #fb502c);
+}
+
+.small_program>p:nth-child(2)>button:nth-child(2) {
+    margin-left: 1rem;
+    background: linear-gradient(50deg, #3684fa, #40a5fc);
+}

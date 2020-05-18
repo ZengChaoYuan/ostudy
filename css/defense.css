@@ -1,0 +1,105 @@
+/* 3.防御系统 */
+
+.defense_performance {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    background-color: #000;
+}
+
+.defense_performance>ul {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.defense_performance>ul>p {
+    color: white;
+    font-size: 0.8rem;
+    margin: 16px 0 3px;
+}
+
+.defense_performance>ul>li {
+    width: 100%;
+    height: auto;
+    margin-top: 0.1rem;
+    color: #666666;
+    border-top: 1px solid #ccc;
+}
+
+.defense_performance>ul>li>ol {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 第一个 */
+
+.defense_performance>ul>li>ol>li:nth-child(1) {
+    width: 23%;
+    font-size: 0.6rem;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(1)>p:nth-child(1) {
+    margin-top: 0.2rem;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(1)>p:nth-child(2) {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* 第二个 */
+
+.defense_performance>ul>li>ol>li:nth-child(2) {
+    width: 50%;
+    font-size: 0.6rem;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(2)>p:nth-child(1) {
+    padding: 8px 0 0;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(2)>p:nth-child(2) {
+    padding: 5px 0;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(2)>p:nth-child(3) {
+    padding: 0 0 5px;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(2)>p:nth-child(4) {
+    margin-top: 0.2rem;
+}
+
+
+/* 第三个 */
+
+.defense_performance>ul>li>ol>li:nth-child(3) {
+    font-size: 0.6rem;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(3)>p:nth-child(1) {
+    margin-top: 0.2rem;
+    font-size: 0.6rem;
+}
+
+.defense_performance>ul>li>ol>li:nth-child(3)>p:nth-child(2) {
+    margin-top: 0.8rem;
+    font-size: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* 模式 */
+
+.defense_pattern {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}

@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>引导页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.0/lib/index.css">
+    <link rel="stylesheet" href="./css/guide.css">
+</head>
+
+<body>
+    <div id="app">
+
+        <van-swipe :autoplay="3000" indicator-color="white">
+            <van-swipe-item>
+                <div class="wrapper" style="background-color: #49cb9d;">
+                    <div class="picture">
+                        <p><img src="./images/siqiimg6.png" alt=""></p>
+                    </div>
+                    <p class="title">直销/城市o2o</p>
+                    <p class="decyi">全面的直销制度配置</p>
+                    <p class="decer">行业首个多门店小程序解决方案</p>
+                </div>
+            </van-swipe-item>
+            <van-swipe-item>
+                <div class="wrapper" style="background-color: #fa9878;">
+                    <div class="picture">
+                        <p><img src="./images/siqiimg5.png" alt=""></p>
+                    </div>
+                    <p class="title">拼团/积分娱乐</p>
+                    <p class="decyi">玩游戏攒积分介绍</p>
+                    <p class="decer">拼团新玩法/拼团流程</p>
+                </div>
+            </van-swipe-item>
+            <van-swipe-item>
+                <div class="wrapper" style="background-color: #199d8a;">
+                    <div class="picture">
+                        <p><img src="./images/siqiimg2.png" alt=""></p>
+                    </div>
+                    <p class="title">区块链/防御</p>
+                    <p class="decyi">性能更加的盈科体系</p>
+                    <p class="decer">完善的虚拟币生态系统</p>
+                </div>
+            </van-swipe-item>
+            <van-swipe-item>
+                <div class="wrapper" style="background-color: #37a0eb;">
+                    <div class="picture">
+                        <p><img src="./images/logo.png" alt=""></p>
+                    </div>
+                    <p class="title">盈科网络欢迎您</p>
+                    <p class="decyi">咨询/代理/加入我们</p>
+                    <a href="./index.html">立即体验</a>
+                </div>
+            </van-swipe-item>
+        </van-swipe>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vant@2.0/lib/vant.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app'
+
+        });
+    </script>
+</body>
+
+</html>

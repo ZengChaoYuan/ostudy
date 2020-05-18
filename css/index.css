@@ -1,0 +1,160 @@
+/* 为什么选择盈科产品 */
+
+.index_function {
+    width: 100%;
+    height: auto;
+}
+
+.index_function>ul {
+    width: 92%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.index_function>ul>li {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1rem;
+    display: flex;
+    border-radius: 0.8rem;
+    justify-content: flex-start;
+    box-shadow: -3px 0 3px #eff1f2, /*左边阴影*/
+    3px 0 3px #eff1f2, /*右边阴影*/
+    0 -3px 3px #eff1f2, /*顶部阴影*/
+    0 3px 3px #eff1f2;
+    /*底边阴影*/
+}
+
+.index_function_left {
+    width: 20%;
+    text-align: center;
+    height: 100%;
+    line-height: 80px;
+}
+
+.index_function_right {
+    width: 75%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.index_function_right>p:nth-child(1) {
+    margin: 0;
+    padding-top: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.index_function_right>p:nth-child(2) {
+    font-size: 0.6rem;
+    margin-top: 5px;
+    color: #808080;
+}
+
+
+/* 为什么选择盈科产品,八大技术优势 */
+
+.index_why {
+    width: 100%;
+    height: auto;
+    /* background-color: skyblue; */
+}
+
+.index_why>ul {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: darkseagreen; */
+}
+
+.index_why>ul>li:nth-child(odd) {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0;
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: flex-start;
+    border-radius: 1rem;
+    border-left: 1px solid #ccc;
+}
+
+.index_why>ul>li:nth-child(even) {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0;
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: flex-end;
+    border-radius: 1rem;
+    border-right: 1px solid #ccc;
+}
+
+.index_why_left {
+    margin-left: 0.5rem;
+}
+
+.index_why_right {}
+
+.index_why_right>p {
+    margin: 0;
+    padding: 0;
+}
+
+.index_why_right>p:nth-child(1) {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.index_why_right>p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #808080;
+    margin-top: 0.3rem;
+}
+
+
+/* O2O团队实力，百人技术团队 */
+
+.index_team {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.index_team>ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.index_team>ul>li {
+    width: 48%;
+    margin-bottom: 1rem;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.index_team>ul>li>p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.index_team>ul>li>p:nth-child(1) {
+    margin: 0.5rem 0;
+}
+
+.index_team>ul>li>p:nth-child(2) {
+    margin: 0.5rem 0;
+    color: #1a1a1a;
+    font-size: 0.8rem;
+}
+
+.index_team>ul>li>p:nth-child(3) {
+    margin: 0.5rem;
+    color: #808080;
+    font-size: 0.6rem;
+}

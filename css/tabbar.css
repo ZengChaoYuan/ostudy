@@ -1,0 +1,43 @@
+.tabbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: sandybrown;
+}
+
+.tabbar>ul {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tabbar>ul>li {
+    width: 20%;
+    text-align: center;
+    height: 100%;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabbar>ul>li>p {
+    margin: 0;
+    padding: 0;
+}
+
+.tabbar>ul>li>p>a {
+    text-decoration: none;
+    color: #515151;
+}
+
+.tabbar>ul>li>p:nth-child(1) {
+    margin-top: 8px;
+}
+
+.tabbar>ul>li>p:nth-child(2) {
+    margin-top: 4px;
+}

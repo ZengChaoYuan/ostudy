@@ -1,0 +1,194 @@
+ /* 支持多商户入驻，供货体系模式 */
+ 
+ .multiple_merchants {
+     width: 100%;
+     height: auto;
+     /* background-color: #1744c9; */
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .multiple_merchants>ul {
+     width: 95%;
+     height: auto;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .multiple_merchants>ul>li {
+     height: auto;
+     margin: 1rem 0;
+     /* border: 1px solid #ccc; */
+ }
+ 
+ .multiple_merchants>ul>li:nth-child(1) {
+     width: 45%;
+     font-size: 0.8rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .multiple_merchants>ul>li:nth-child(2) {
+     width: 55%;
+     font-size: 0.6rem;
+ }
+ 
+ .multiple_merchants>ul>li:nth-child(2)>p:nth-child(1) {
+     padding-top: 10px;
+     font-size: 0.8rem;
+ }
+ 
+ .multiple_merchants>ul>li:nth-child(2)>p:nth-child(2) {
+     padding-top: 0.3rem;
+     color: #808080;
+     font-size: 0.6rem;
+ }
+ /* 盈科城市O2O分销系统核心优势 */
+ 
+ .o2oCore_strengths {
+     width: 100%;
+     height: auto;
+     margin-top: 0.5rem;
+     padding-bottom: 0.5rem;
+ }
+ 
+ .o2oCore_strengths>ul {
+     width: 90%;
+     height: auto;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ 
+ .o2oCore_strengths>ul>li {
+     width: 45%;
+     height: auto;
+     margin-bottom: 0.8rem;
+     border-radius: 0.5rem;
+     box-shadow: -3px 0 3px #eff1f2, /*左边阴影*/
+     3px 0 3px #eff1f2, /*右边阴影*/
+     0 -3px 3px #eff1f2, /*顶部阴影*/
+     0 3px 3px #eff1f2;
+     /*底边阴影*/
+ }
+ 
+ .o2oCore_strengths>ul>li>p {
+     text-align: center;
+     font-size: 0.7rem;
+ }
+ 
+ .o2oCore_strengths>ul>li>p:nth-child(1) {
+     width: 100%;
+     height: 80px;
+     line-height: 80px;
+     color: #0054ac;
+     font-size: 1rem;
+ }
+ 
+ .o2oCore_strengths>ul>li>p:nth-child(3) {
+     font-size: 0.6rem;
+     padding: 0.2rem 0.5rem 0.4rem;
+     color: #808080;
+ }
+ /* 多种盈利模式，助力平台营收登顶 */
+ 
+ .o2o_characteristic {
+     width: 100%;
+     height: auto;
+     margin-top: 0.5rem;
+     padding-bottom: 0.5rem;
+ }
+ 
+ .o2o_characteristic>ul {
+     width: 90%;
+     height: auto;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ 
+ .o2o_characteristic>ul>li {
+     width: 45%;
+     height: auto;
+     margin-bottom: 0.8rem;
+     border-radius: 0.5rem;
+     box-shadow: -3px 0 3px #eff1f2, /*左边阴影*/
+     3px 0 3px #eff1f2, /*右边阴影*/
+     0 -3px 3px #eff1f2, /*顶部阴影*/
+     0 3px 3px #eff1f2;
+     /*底边阴影*/
+ }
+ 
+ .o2o_characteristic>ul>li>p {
+     text-align: center;
+     font-size: 0.7rem;
+ }
+ 
+ .o2o_characteristic>ul>li>p:nth-child(1) {
+     width: 100%;
+     height: 80px;
+     padding: 8px 0;
+     color: #0054ac;
+     font-size: 1rem;
+ }
+ 
+ .o2o_characteristic>ul>li>p:nth-child(3) {
+     font-size: 0.6rem;
+     padding: 0.2rem 0.5rem 0.4rem;
+     color: #808080;
+ }
+ /* 盈科微商通活动特色功能 */
+ 
+ .o2o_function {
+     width: 100%;
+     height: auto;
+     margin-top: 0.5rem;
+     padding-bottom: 0.5rem;
+ }
+ 
+ .o2o_function>ul {
+     width: 90%;
+     height: auto;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ 
+ .o2o_function>ul>li {
+     width: 45%;
+     height: auto;
+     margin-bottom: 0.8rem;
+     box-shadow: -3px 0 3px #eff1f2, /*左边阴影*/
+     3px 0 3px #eff1f2, /*右边阴影*/
+     0 -3px 3px #eff1f2, /*顶部阴影*/
+     0 3px 3px #eff1f2;
+     /*底边阴影*/
+ }
+ 
+ .o2o_function>ul>li>p {
+     text-align: center;
+     font-size: 0.7rem;
+ }
+ 
+ .o2o_function>ul>li>p:nth-child(1) {
+     width: 100%;
+     height: auto;
+     padding: 10px 0;
+     color: #0054ac;
+     font-size: 1rem;
+ }
+ 
+ .o2o_function>ul>li>p:nth-child(2) {
+     padding: 5px 0;
+ }
+ 
+ .o2o_function>ul>li>p:nth-child(3) {
+     font-size: 0.6rem;
+     padding: 0 8px 10px;
+     color: #808080;
+ }

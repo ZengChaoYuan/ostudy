@@ -1,0 +1,147 @@
+/* 1.区块链+ */
+
+.virtual_feature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: #f5f5f5;
+}
+
+.virtual_feature>ul {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.virtual_feature>ul>li {
+    width: 42%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.virtual_feature>ul>li>p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.virtual_feature>ul>li>p:nth-child(1) {
+    padding: 0.5rem;
+    height: 60px;
+}
+
+.virtual_feature>ul>li>p:nth-child(3) {
+    font-size: 0.6rem;
+    padding: 0.4rem 0;
+    color: #808080;
+}
+
+
+/* 盈科虚拟币生态系统，能在技术上为你做些什么？ */
+
+.virtual_skill {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.virtual_skill>ul {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.virtual_skill>ul>li {
+    width: 40%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: -3px 0 3px #eff1f2, /*左边阴影*/
+    3px 0 3px #eff1f2, /*右边阴影*/
+    0 -3px 3px #eff1f2, /*顶部阴影*/
+    0 3px 3px #eff1f2;
+    /*底边阴影*/
+}
+
+.virtual_skill>ul>li>p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.virtual_skill>ul>li>p:nth-child(1) {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.virtual_skill>ul>li>p:nth-child(2) {
+    padding: 0.2rem;
+}
+
+.virtual_skill>ul>li>p:nth-child(3) {
+    font-size: 0.6rem;
+    padding: 0.4rem 0;
+    color: #808080;
+}
+
+
+/* 盈科虚拟币生态系统，我们有什么优势？ */
+
+.advantage_section {
+    width: 90%;
+    height: auto;
+    margin: 0.5rem auto 0;
+    /* background-color: darkcyan; */
+}
+
+.advantage_section>ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage_section>ul>li {
+    width: 48%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: -3px 0 3px #eff1f2, /*左边阴影*/
+    3px 0 3px #eff1f2, /*右边阴影*/
+    0 -3px 3px #eff1f2, /*顶部阴影*/
+    0 3px 3px #eff1f2;
+    /*底边阴影*/
+    margin: 0.5rem 0;
+}
+
+.advantage_section>ul>li>p {
+    text-align: center;
+    padding: 0.5rem 0.5rem 0;
+}
+
+.advantage_section>ul>li>p:nth-child(1) {
+    font-size: 0.8rem;
+}
+
+.advantage_section>ul>li>p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #808080;
+    padding-bottom: 0.5rem;
+}

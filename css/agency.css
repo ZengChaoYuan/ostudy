@@ -1,0 +1,147 @@
+.agent_contact {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+}
+
+
+/* 渠道代理申请 */
+
+.agent_apply {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    /* background-color: sandybrown; */
+}
+
+
+/* 合作产品 */
+
+.cooperation_content {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: darkcyan; */
+}
+
+.cooperation_content>ul {
+    width: 100%;
+    height: auto;
+}
+
+.cooperation_content>ul>li {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 1px solid #e6e6e6;
+}
+
+.cooperation_content>ul>li>p {
+    text-align: center;
+}
+
+.cooperation_content>ul>li>p:nth-child(1) {
+    margin: 1rem 0;
+}
+
+.cooperation_content>ul>li>p:nth-child(3) {
+    padding: 8px 0;
+    font-size: 1rem;
+}
+
+.cooperation_content>ul>li>p:nth-child(4) {
+    margin: 0.2rem 0 0.5rem;
+    color: #4d4d4d;
+    font-size: 0.8rem;
+}
+
+.cooperation_content>ul>li>p:nth-child(5) {
+    margin: 0.5rem 0;
+    padding: 0 0.7rem;
+    color: #808080;
+    font-size: 0.6rem;
+}
+
+
+/* 公司实力 */
+
+.strength_content {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: sandybrown; */
+}
+
+.strength_content>ul {
+    width: 100%;
+    height: auto;
+}
+
+.strength_content>ul>li {
+    width: 100%;
+    margin-bottom: 0.8rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid #e6e6e6; */
+}
+
+.strength_content>ul>li>p:nth-child(1) {
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.strength_content>ul>li>p:nth-child(2) {
+    margin: 0.8rem 0 0.5rem 0.6rem;
+    color: #808080;
+    font-size: 0.8rem;
+}
+
+
+/* 代理支持*/
+
+.agent_content {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: seagreen; */
+}
+
+.agent_content>ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.agent_content>ul>li {
+    width: 49%;
+    margin-bottom: 1rem;
+    height: auto;
+    border-radius: 0.5rem;
+    /* border: 1px solid #ccc; */
+    /* background-color: darkcyan; */
+}
+
+.agent_content>ul>li>p {
+    text-align: center;
+}
+
+.agent_content>ul>li>p:nth-child(1) {
+    margin: 0.5rem 0;
+}
+
+.agent_content>ul>li>p:nth-child(2) {
+    margin: 0.5rem 0;
+    color: #1a1a1a;
+    font-size: 0.8rem;
+}
+
+.agent_content>ul>li>p:nth-child(3) {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    color: #808080;
+    font-size: 0.6rem;
+}
